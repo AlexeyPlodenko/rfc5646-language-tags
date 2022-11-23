@@ -1,0 +1,16 @@
+{
+  "name": "alexeyplodenko/rfc5646-language-tags-php",
+  "description": "The package provides a class with the list of RFC 5646 language tags.",
+  "type": "project",
+  "keywords": ["rfc5646", "rfc 5646", "rfc-5646", "language tags", "php"],
+  "homepage": "https://github.com/AlexeyPlodenko/rfc5646-language-tags-php",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6 || >=7 || >=8"
+  }
+}
