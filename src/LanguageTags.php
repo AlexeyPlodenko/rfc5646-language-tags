@@ -1,12 +1,12 @@
 <?php
-namespace App;
+namespace AlexeyPlodenko\Rfc5646;
 
-class Rfc5646LanguageTags
+class LanguageTags
 {
     /**
      * @var string[]
      */
-    protected $languageTags = [
+    protected $data = [
         'af' => 'Afrikaans',
         'af-ZA' => 'Afrikaans (South Africa)',
         'ar' => 'Arabic',
@@ -246,6 +246,6 @@ class Rfc5646LanguageTags
      */
     public function getLanguageTags()
     {
-        return $this->languageTags;
+        return $this->data;
     }
 }
